@@ -708,6 +708,7 @@ main{
 }
 
 footer{
+    
     .footer__top{
         background: var(--Main-BGPage, #FBF8EC);
         .footer__medias{
@@ -800,6 +801,10 @@ footer{
         }
     }
     .footer__bottom{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        background-color: #fff;
         @media (min-width:768px) {
             display: none;
         }

@@ -979,6 +979,12 @@ footer .footer__top p {
   font-family: Rubik;
   padding-bottom: 30px;
 }
+footer .footer__bottom {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #fff;
+}
 @media (min-width: 768px) {
   footer .footer__bottom {
     display: none;
